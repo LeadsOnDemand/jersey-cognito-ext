@@ -1,6 +1,6 @@
-package com.leadsondemand.jersey.security.cognito;
+package com.anigenero.jersey.security.cognito;
 
-import com.leadsondemand.jersey.security.cognito.exception.AccessDeniedException;
+import com.anigenero.jersey.security.cognito.exception.AccessDeniedException;
 
 import javax.annotation.Priority;
 import javax.annotation.security.DenyAll;

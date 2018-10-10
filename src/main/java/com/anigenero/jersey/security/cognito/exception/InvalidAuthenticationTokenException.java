@@ -1,4 +1,4 @@
-package com.leadsondemand.jersey.security.cognito.exception;
+package com.anigenero.jersey.security.cognito.exception;
 
 public class InvalidAuthenticationTokenException extends RuntimeException {
 

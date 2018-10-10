@@ -1,6 +1,9 @@
-package com.leadsondemand.jersey.security.cognito.service;
+package com.anigenero.jersey.security.cognito.service;
 
 import com.anigenero.cdi.configuration.Configuration;
+import com.anigenero.jersey.security.cognito.AuthorizationContext;
+import com.anigenero.jersey.security.cognito.exception.InvalidAuthenticationTokenException;
+import com.anigenero.jersey.security.cognito.util.JWKUtil;
 import com.auth0.jwk.Jwk;
 import com.auth0.jwk.JwkProvider;
 import com.auth0.jwk.JwkProviderBuilder;
@@ -9,15 +12,10 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.InvalidClaimException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.leadsondemand.jersey.security.cognito.AuthorizationContext;
-import com.leadsondemand.jersey.security.cognito.exception.InvalidAuthenticationTokenException;
-import com.leadsondemand.jersey.security.cognito.util.JWKUtil;
 
 import javax.inject.Inject;
 import javax.validation.constraints.NotNull;
 import java.security.interfaces.RSAPublicKey;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;

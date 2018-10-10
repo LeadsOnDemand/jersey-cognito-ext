@@ -1,4 +1,4 @@
-package com.leadsondemand.jersey.security.cognito.util;
+package com.anigenero.jersey.security.cognito.util;
 
 public final class JWKUtil {
 

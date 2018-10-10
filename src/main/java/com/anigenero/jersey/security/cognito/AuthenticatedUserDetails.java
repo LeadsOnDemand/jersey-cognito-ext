@@ -1,4 +1,4 @@
-package com.leadsondemand.jersey.security.cognito;
+package com.anigenero.jersey.security.cognito;
 
 import java.security.Principal;
 import java.util.Collections;
