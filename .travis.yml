@@ -1,0 +1,17 @@
+language: java
+jdk:
+  - oraclejdk10
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+deploy:
+  provider: script
+  script: "./gradlew bintrayUpload"
+  skip_cleanup: true
+  on:
+    tags: true
+install:
+  - ./gradlew clean build jacocoTestVerify
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
