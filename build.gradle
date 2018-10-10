@@ -37,7 +37,7 @@ repositories {
     }
 }
 
-group 'com.anigenero.jersey'
+group 'com.leadsondemand.jersey'
 version '1.0-SNAPSHOT'
 
 ext {
