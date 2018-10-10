@@ -1,7 +1,7 @@
-package com.anigenero.jersey.security.cognito.service;
+package com.leadsondemand.jersey.security.cognito.service;
 
 import com.anigenero.cdi.configuration.Configuration;
-import com.anigenero.jersey.security.cognito.AuthorizationContext;
+import com.leadsondemand.jersey.security.cognito.AuthorizationContext;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

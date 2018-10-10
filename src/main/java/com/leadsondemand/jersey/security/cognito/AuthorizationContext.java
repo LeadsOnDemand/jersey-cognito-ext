@@ -1,4 +1,4 @@
-package com.anigenero.jersey.security.cognito;
+package com.leadsondemand.jersey.security.cognito;
 
 import java.util.Set;
 

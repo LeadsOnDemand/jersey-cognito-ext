@@ -1,6 +1,6 @@
-package com.anigenero.jersey.security.cognito;
+package com.leadsondemand.jersey.security.cognito;
 
-import com.anigenero.jersey.security.cognito.service.AuthenticationTokenService;
+import com.leadsondemand.jersey.security.cognito.service.AuthenticationTokenService;
 
 import javax.annotation.Priority;
 import javax.inject.Inject;

@@ -31,8 +31,9 @@ targetCompatibility = 1.10
 repositories {
     mavenCentral()
     mavenLocal()
+    jcenter()
     maven {
-        url 'https://dl.bintray.com/anigenero/maven'
+        url 'https://dl.bintray.com/leadsondemand/maven'
     }
 }
 
@@ -146,7 +147,7 @@ bintray {
         name = 'configuration-provider'
         userOrg = System.getenv('BINTRAY_USERNAME')
         licenses = ['MIT']
-        vcsUrl = 'https://github.com/anigenero/jersey-cognito-ext.git'
+        vcsUrl = 'https://github.com/LeadsOnDemand/jersey-cognito-ext.git'
     }
 }
 
@@ -168,12 +169,12 @@ def pomConfig = {
         developer {
             id "anigenero"
             name "Robin Schultz"
-            email "robin@anigenero.com"
+            email "robin.schultz@leadsondemandinc.com"
         }
     }
 
     scm {
-        url "https://github.com/anigenero/jersey-cognito-ext"
+        url "https://github.com/LeadsOnDemand/jersey-cognito-ext"
     }
 
 }

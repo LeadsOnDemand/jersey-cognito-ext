@@ -1,9 +1,9 @@
-package com.anigenero.jersey.security.cognito.service;
+package com.leadsondemand.jersey.security.cognito.service;
 
 import com.anigenero.cdi.configuration.Configuration;
-import com.anigenero.jersey.security.cognito.AuthorizationContext;
-import com.anigenero.jersey.security.cognito.exception.InvalidAuthenticationTokenException;
-import com.anigenero.jersey.security.cognito.util.JWKUtil;
+import com.leadsondemand.jersey.security.cognito.AuthorizationContext;
+import com.leadsondemand.jersey.security.cognito.exception.InvalidAuthenticationTokenException;
+import com.leadsondemand.jersey.security.cognito.util.JWKUtil;
 import com.auth0.jwk.Jwk;
 import com.auth0.jwk.JwkProvider;
 import com.auth0.jwk.JwkProviderBuilder;
